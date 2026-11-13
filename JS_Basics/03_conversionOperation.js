@@ -52,3 +52,56 @@ let stringNumber = String(someNumber)
 console.log(stringNumber);//33
 console.log(typeof stringNumber);//string
 
+//**************************** Operations *************************************
+let value = 3;
+let negValue = -value;
+console.log(negValue);//-3
+
+console.log(2+2);//4
+console.log(2-2);//0
+console.log(2*2);//4
+console.log(2**5);//2*2=4*2=8*2=16*2=32
+//32
+console.log(2/2);//1
+console.log(2%2);//0
+//string jodna: in english?
+let str1 = 'hello';
+let str2 = ' Hacki'
+let str3 = str1 + str2;
+console.log(str3);//hello Hacki
+
+console.log('1' + 2);//12
+console.log(1 + '2');//12
+console.log("1" + 2 + 2);//122 //2+2=4 but yahan sab kuch string ban gaya: in english?
+console.log(1 + 2 + "2");//32// before string hota hai calculate
+console.log((3 + 4) * 4 % 3);//use this approach //use bracket if u want to calc any value first 
+
+console.log(+true);//1//but not prefered to use
+//console.log(true+);//SyntaxError: Unexpected token ')'
+
+console.log(+"");//0
+
+//console.log(true+);//SyntaxError: Unexpected token ')'//in coding
+//readability is soo much important
+
+let num1, num2, num3
+num1 = num2 = num3 = 2 + 2
+//Only num1 is declared here. num2 and num3 are assigned without a declaration, so in sloppy 
+//mode they become accidental global variables, and in strict mode you get a ReferenceError.
+
+
+//inc/dec//prefix/postfix concept 
+let gameCounter = 100
+++gameCounter;
+console.log(gameCounter);
+
+// More about js study from this web
+// https://tc39.es/ecma262/#sec-intro
+
+
+
+
+
+
+
+
